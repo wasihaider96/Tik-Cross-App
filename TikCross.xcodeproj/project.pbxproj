@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188EF38028A6572E00B5867E /* BoardNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF37F28A6572E00B5867E /* BoardNavigator.swift */; };
+		188EF38328A659ED00B5867E /* constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EF38228A659ED00B5867E /* constraints.swift */; };
 		18ECED1C28A4E9FA0014149A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECED1B28A4E9FA0014149A /* AppDelegate.swift */; };
 		18ECED1E28A4E9FA0014149A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECED1D28A4E9FA0014149A /* SceneDelegate.swift */; };
 		18ECED2028A4E9FA0014149A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECED1F28A4E9FA0014149A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188EF37F28A6572E00B5867E /* BoardNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardNavigator.swift; sourceTree = "<group>"; };
+		188EF38228A659ED00B5867E /* constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constraints.swift; sourceTree = "<group>"; };
 		18ECED1828A4E9FA0014149A /* TikCross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikCross.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ECED1B28A4E9FA0014149A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ECED1D28A4E9FA0014149A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188C2F2C28A6537A00A0540D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18ECED1F28A4E9FA0014149A /* ViewController.swift */,
+				188EF37F28A6572E00B5867E /* BoardNavigator.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		188EF38128A659D000B5867E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				188EF38228A659ED00B5867E /* constraints.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		18ECED0F28A4E9FA0014149A = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +77,10 @@
 		18ECED1A28A4E9FA0014149A /* TikCross */ = {
 			isa = PBXGroup;
 			children = (
+				188EF38128A659D000B5867E /* Helpers */,
+				188C2F2C28A6537A00A0540D /* ViewControllers */,
 				18ECED1B28A4E9FA0014149A /* AppDelegate.swift */,
 				18ECED1D28A4E9FA0014149A /* SceneDelegate.swift */,
-				18ECED1F28A4E9FA0014149A /* ViewController.swift */,
 				18ECED2128A4E9FA0014149A /* Main.storyboard */,
 				18ECED2428A4E9FC0014149A /* Assets.xcassets */,
 				18ECED2628A4E9FC0014149A /* LaunchScreen.storyboard */,
@@ -140,6 +162,8 @@
 			files = (
 				18ECED2028A4E9FA0014149A /* ViewController.swift in Sources */,
 				18ECED1C28A4E9FA0014149A /* AppDelegate.swift in Sources */,
+				188EF38328A659ED00B5867E /* constraints.swift in Sources */,
+				188EF38028A6572E00B5867E /* BoardNavigator.swift in Sources */,
 				18ECED1E28A4E9FA0014149A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG56AWY496;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikCross/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG56AWY496;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TikCross/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hand-drawn-tic-tac-toe-game-x-o-children-game-win-in-tictactoe-vector-illustration-in-doodle-style-on-white-background-2HMRN7E.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
